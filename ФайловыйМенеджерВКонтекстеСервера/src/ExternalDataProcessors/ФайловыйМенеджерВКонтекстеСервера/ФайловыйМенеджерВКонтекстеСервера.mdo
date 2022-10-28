@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="85499ed5-90b1-4329-9aff-b9602a069c8b">
+  <producedTypes>
+    <objectType typeId="909ef3e3-a0a2-40ea-8986-466021e7a9a7" valueTypeId="54fa91c6-9205-4591-af9a-d955b7375a28"/>
+  </producedTypes>
+  <name>ФайловыйМенеджерВКонтекстеСервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Файловый менеджер в контексте сервера</value>
+  </synonym>
+  <comment>1.0.0.0</comment>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="c2088fca-1044-48a2-81cd-a9cf06667b81"/>
+  <defaultForm>ExternalDataProcessor.ФайловыйМенеджерВКонтекстеСервера.Form.Форма</defaultForm>
+  <forms uuid="517d1c3a-505e-4468-b64c-95bb4094cb44">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="be43f037-49aa-49dd-9466-e7a76deb4527">
+    <name>СвойстваФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свойства файла</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExternalDataProcessor>
